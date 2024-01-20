@@ -1,0 +1,19 @@
+<div class="center">
+    <h1> The Result: {list}</h1>
+    <ul class="nav nav-list">
+      <li class="nav-header" >Log entries</li>
+    {% for item in list %}
+       {{ item }}
+    {% endfor %}
+    </ul> 
+    
+    </div>d
+    
+    <style>
+      .center {
+        margin: auto;
+        width: 60%;
+        border: 4px solid #f357bf;
+        padding: 10px;
+      }
+    </style>
